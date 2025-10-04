@@ -1,0 +1,15 @@
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: url("/images/window-photo.jpg") center/cover no-repeat;
+
+  .hero-image {
+    position: absolute;
+    inset: 0;
+    background: url("/images/image.png") center/cover no-repeat;
+    clip-path: circle(12% at 50% 50%);
+    transform-origin: center;
+    z-index: 2;
+  }
+}
